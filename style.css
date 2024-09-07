@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    padding: 16px 39px;
+}
+
+.header .navbar-nav {
+    text-align: center;
+    padding: 28px 0;
+}
+
+.header .navbar-nav ul li{
+    padding-top: 20px;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+    padding: 0 28px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header .navbar-brand img {
+    width: 100%;
+    height: 49px;
+    object-fit: contain;
+}
+
+.header .book-btn {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 30px;
+    padding: 12px 10px;
+    border-radius: 10px;
+}
+
+
+/*  Banner Section Start */
+.bannerArea img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(98%);
+}
+
+/*  Banner Section End */
+
+/* Sandalwood Vista Section Start */
+
+.Sandalwood-vista {
+    margin-top: 44px;
+}
+
+.Sandalwood-farms {
+    max-width: 44%;
+    height: 100%;
+    margin: auto;
+}
+.Sandalwood-farms img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Sandalwood-Vista-content {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.Sandalwood-Vista-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight:500;
+    color: black;
+}
+
+/* Sandalwood Vista Section End */
+
+/* about section start */
+.about{
+    padding:40px;
+    margin-top: 48px;
+}
+
+.about h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+}
+
+.about h2 {
+    color: red;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about .about-content {
+    margin-bottom: 80px;
+}
+
+.about .about-content p {
+    margin-top: 31px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about strong {
+    color: #000;
+}
+.about-image img {
+    width: 100%;
+}
+
+
+.amenties {
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/tree-casting--shado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.amenties .content {
+    margin-top: 178px;
+}
+
+.amenties .content h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.amenties .content h3 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Whychoose Section Start */
+.whychoose {
+    margin-top: 89px;
+    margin-bottom: 95px;
+
+}
+
+.whychoose .img-box img {
+    width: 100%;
+}
+
+.whychoose .content-box {
+    margin-top: 83px;
+}
+
+.whychoose .content-box h2 {
+    text-transform: capitalize;
+    font-size: 31px;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+
+.whychoose .content-box p {
+    font-family: "Montserrat", sans-serif;
+    text-align: right;
+    font-size: 19px;
+}
+
+.whychoose .content-box .icon {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.whychoose .content-box .icon img{
+    height: 41px;
+    width: 100%;
+    object-fit: contain;
+    font-family: "Montserrat", sans-serif;
+}
+
+.whychoose .content-box .icon p {
+    text-align: center;
+    color: green;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
+
+/* Whychoose Section End */
+.vista-content {
+    padding-top: 139px;
+}
+
+.vista-images img {
+    width: 100%;
+}
+
+.vista-content h2 {
+    padding-bottom: 32px;
+    font-size: 53px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000;
+    font-family: "Caveat", cursive;
+}
+
+.vista-content p {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.google-reviws {
+    background-image:url("../images/background-image.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height:430px;
+    
+}
+
+.google-reviws h2 {
+    font-size: 53px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 600;
+    padding-top: 64px;
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+}
+
+.google-reviws h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+
+.google-reviws .google-reviws-content {
+    min-height: 485px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 93%;
+}
+
+.google-reviws .google-reviws-content img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    position:absolute;
+    top:-43px;
+    left:37%;
+}
+
+.google-reviws .google-reviws-content h3 {
+    padding-top: 102px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 17px;
+}
+
+.google-reviws .google-reviws-content p {
+    padding: 0 40px;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.google-reviws .owl-carousel{
+    position:relative;
+}
+
+.google-reviws .owl-carousel .owl-nav{
+    background-color:orange;
+}
+
+.google-reviws .owl-carousel .owl-nav button{
+    background-color:white;
+    font-size: 15px;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+
+.google-reviws .owl-carousel .owl-nav button span{
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.google-reviws .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 55%;
+    left: -4%;
+}
+
+.google-reviws .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 53%;
+    right:-2%;
+}
+
+
+.location-advantages-section {
+    background-image: url(../images/background\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0;
+}
+
+.location-advantages-section .location-content {
+    text-align: center;
+}
+
+.location-advantages-section .location-content h2 {
+    font-family: "Caveat", cursive;
+    font-size: 59px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.location-advantages-section .location-content h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.location-advantages-section .advantage-box {
+    display: flex;
+    gap: 30px;
+    padding-top: 186px;
+    padding-left: 60px;
+}
+
+.location-advantages-section .advantage-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.location-advantages-section .advantage-box .content h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.location-advantages-section .advantage-box .content p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
